@@ -66,14 +66,22 @@ img {
     margin: 0 auto;
     text-align: center;
   }
+  .p-image {
+    height: 500px;
+    width: 500px;
+  }
   @media only screen and (max-width: 600px) {
-      .image {
+      .p-image {
         display: block;
         margin-bottom: 10px;
+        height: 250;
+        width: 250;
       }
-      img {margin: 0 auto;}
-      #portfolio {
+      img {
+        margin: 0 auto;
+        }
+      #p-portfolio {
         width: 100%;
       }
-      ul.links {padding: 0;}
+      ul .p-links {padding: 0;}
     }

@@ -1,3 +1,8 @@
+$(document).ready(function() {
+    $('.menu-toggle').on('click', function(){
+        $('.p-links').toggleClass('showing');
+    })
+});
 $(".jumpTo").on("click", function( e ) {
     
     e.preventDefault();

@@ -11,7 +11,7 @@
 <body>
     <nav class="p-navbar">
         <div class="p-navbar-container">
-            <ul class="links">
+            <ul class="p-links">
                 <li><a class="jumpTo" href="#p-bio">Bio</a></li>
                 <li><a class="jumpTo" href="#p-portfolio">Portfolio</a></li>
                 <li><a target="_blank" href="https://github.com/JayKLMNOP"><img src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></li>
@@ -29,8 +29,10 @@
             <!--need to figure out how to link my live version-->
         </div>
     </main>
-    <footer class="p-foorer">
-        <a href="mailto: jkim7229@gmail.com">email</a>
+    <footer class="p-footer">
+        <a class="p-contact-info" href="mailto: jkim7229@gmail.com">EMAIL</a>
     </footer>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>	    
 </body>
 </html>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <nav class="p-navbar">
@@ -22,11 +22,15 @@
     <main class="p-main-container">
         <div class="p-bio-section" id="p-bio">
             <h1>Hello my name is Jay</h1>
+            <!-- <a href=""></a> -->
             <p>I am studying to become a fullstack developer. I currently know how to work with HTML/CSS/Javascript/jQuery</p>
         </div>
         <div class="p-portfolio-section" id="p-portfolio">
             <h1>PORTFOLIO</h1>
-            <!--need to figure out how to link my live version-->
+            <section class="p-projects">
+            <a href="https://github.com/JayKLMNOP/JayKLMNOP.github.io.git"><img class="p-image" src="images/filler-stock-id-photo.png"></a>
+            <p>Test your knowlegde on how many dishes you can identify. A small quiz app that uses HTML/CSS/Javascript</p>
+            </section>
         </div>
     </main>
     <footer class="p-footer">

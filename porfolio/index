@@ -28,7 +28,7 @@
         <div class="p-portfolio-section" id="p-portfolio">
             <h1>PORTFOLIO</h1>
             <section class="p-projects">
-            <a href="https://github.com/JayKLMNOP/JayKLMNOP.github.io.git"><img class="p-image" src="images/filler-stock-id-photo.png"></a>
+            <a href="https://jayklmnop.github.io/quizApp/"><img class="p-image" src="images/filler-stock-id-photo.png"></a>
             <p>Test your knowlegde on how many dishes you can identify. A small quiz app that uses HTML/CSS/Javascript</p>
             </section>
         </div>

@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="test-main.css">
     <!--Fontawsome-->
     <script src="https://kit.fontawesome.com/40235bbde3.js"></script>
 </head>
@@ -14,13 +15,14 @@
     <header>
         <nav class="p-navbar">
             <div class="p-navbar-container">
-                <h1 class="p-logo">JayKLMNOP</h1>
-                <i class="fa fa-bars"></i>
+                <button class="hamburger">
+                    <i class="fa fa-bars fa-lg"></i>
+                </button>
                 <ul class="p-links">
                     <li><a class="jumpTo" href="#p-bio">Bio</a></li>
                     <li><a class="jumpTo" href="#p-portfolio">Portfolio</a></li>
-                    <li><a target="_blank" href="https://github.com/JayKLMNOP"><img src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></li>
-                    <li><a target="_blank" href="https://www.linkedin.com/in/jay-kim-b40441175/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/120px-LinkedIn_logo_initials.png"/></a></li>
+                    <li><a target="_blank" href="https://github.com/JayKLMNOP"><img class="gitHub-img" src="https://image.flaticon.com/icons/svg/25/25231.svg"/></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/jay-kim-b40441175/"><img class="linken-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/120px-LinkedIn_logo_initials.png"/></a></li>
                 </ul>
             </div>
         </nav>
@@ -34,7 +36,7 @@
         <div class="p-portfolio-section" id="p-portfolio">
             <h1>PORTFOLIO</h1>
             <section class="p-projects">
-            <a href="https://jayklmnop.github.io/quizApp/"><img class="p-image" src="images/quiz.app.tinyjpg.png"></a>
+            <a href="https://jayklmnop.github.io/quizapplive/QuizApp/"><img class="p-image" src="images/quiz.app.tinyjpg.png"></a>
             <p>Test your knowlegde on how many dishes you can identify. A small quiz app that uses HTML/CSS/Javascript</p>
             </section>
         </div>
@@ -43,6 +45,6 @@
         <a class="p-contact-info" href="mailto: jkim7229@gmail.com">EMAIL</a>
     </footer>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>	    
+    <script type="text/javascript" src="test-script.js"></script>	    
 </body>
 </html>

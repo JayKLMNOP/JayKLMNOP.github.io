@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('.menu-toggle').on('click', function(){
+    $('.hamburger').on('click', function(){
         $('.p-links').toggleClass('showing');
     })
 });
@@ -10,5 +10,6 @@ $(".jumpTo").on("click", function( e ) {
     $("body, html").animate({ 
         scrollTop: $( $(this).attr('href') ).offset().top 
     }, 600);
+    $('.p-links').removeClass('showing');
     
 });
